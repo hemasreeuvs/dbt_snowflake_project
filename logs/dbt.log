@@ -1,0 +1,66 @@
+[0m15:57:15.754812 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 15:57:16.047806 | 05584a69-772c-4e34-9fde-b54fb4aa8943 ==============================
+[0m15:57:16.047806 [info ] [MainThread]: Running with dbt=1.10.20
+[0m15:57:16.049067 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'debug': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt init', 'version_check': 'True', 'empty': 'None', 'printer_width': '80', 'partial_parse': 'True', 'introspect': 'True', 'log_path': 'logs', 'warn_error': 'None', 'write_json': 'True', 'no_print': 'None', 'log_format': 'default', 'quiet': 'False', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\uvshe\\.dbt', 'use_experimental_parser': 'False', 'use_colors': 'True', 'indirect_selection': 'eager'}
+[0m15:58:06.997207 [debug] [MainThread]: Starter project path: C:\Users\uvshe\Desktop\Docs\Data analytical Projects\dbt_snowflake_project\.venv\lib\site-packages\dbt\include\starter_project
+[0m15:58:07.166601 [info ] [MainThread]: 
+Your new dbt project "aws_dbt_snowflake_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:58:07.167965 [info ] [MainThread]: Setting up your profile.
+[0m16:02:24.558601 [info ] [MainThread]: Profile aws_dbt_snowflake_project written to C:\Users\uvshe\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:02:24.569457 [debug] [MainThread]: Command `dbt init` succeeded at 16:02:24.568305 after 308.90 seconds
+[0m16:02:24.573601 [debug] [MainThread]: Flushing usage events
+[0m16:56:13.872069 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 16:56:13.914267 | c69af058-889e-4bc4-b7c0-3b5786f753e3 ==============================
+[0m16:56:13.914267 [info ] [MainThread]: Running with dbt=1.10.20
+[0m16:56:13.915268 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'debug': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'target_path': 'None', 'invocation_command': 'dbt run', 'version_check': 'True', 'empty': 'False', 'printer_width': '80', 'quiet': 'False', 'introspect': 'True', 'log_path': 'logs', 'warn_error': 'None', 'write_json': 'True', 'no_print': 'None', 'partial_parse': 'True', 'log_format': 'default', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\uvshe\\.dbt', 'use_experimental_parser': 'False', 'use_colors': 'True', 'indirect_selection': 'eager'}
+[0m16:56:13.916588 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\uvshe\Desktop\Docs\Data analytical Projects\dbt_snowflake_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:56:13.916588 [debug] [MainThread]: Command `dbt run` failed at 16:56:13.916588 after 0.10 seconds
+[0m16:56:13.917878 [debug] [MainThread]: Flushing usage events
+[0m12:46:53.155599 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 12:46:53.195839 | e9081e82-c739-45d6-ab5a-12bac749998d ==============================
+[0m12:46:53.195839 [info ] [MainThread]: Running with dbt=1.10.20
+[0m12:46:53.196951 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'fail_fast': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'log_format': 'default', 'no_print': 'None', 'version_check': 'True', 'empty': 'False', 'printer_width': '80', 'quiet': 'False', 'log_path': 'logs', 'target_path': 'None', 'warn_error': 'None', 'write_json': 'True', 'invocation_command': 'dbt run --select models/demo', 'introspect': 'True', 'partial_parse': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\uvshe\\.dbt', 'use_experimental_parser': 'False', 'use_colors': 'True', 'indirect_selection': 'eager'}
+[0m12:46:53.197950 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\uvshe\Desktop\Docs\Data analytical Projects\dbt_snowflake_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:46:53.199449 [debug] [MainThread]: Command `dbt run` failed at 12:46:53.198947 after 0.14 seconds
+[0m12:46:53.199449 [debug] [MainThread]: Flushing usage events
+[0m12:55:43.110498 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 12:55:43.149155 | 9aa00ee6-be71-48c7-8e68-c404a490722b ==============================
+[0m12:55:43.149155 [info ] [MainThread]: Running with dbt=1.10.20
+[0m12:55:43.150192 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'debug': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'log_format': 'default', 'target_path': 'None', 'version_check': 'True', 'empty': 'False', 'printer_width': '80', 'quiet': 'False', 'log_path': 'logs', 'introspect': 'True', 'warn_error': 'None', 'write_json': 'True', 'no_print': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\uvshe\\.dbt', 'use_experimental_parser': 'False', 'use_colors': 'True', 'indirect_selection': 'eager'}
+[0m12:55:43.151222 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\uvshe\Desktop\Docs\Data analytical Projects\dbt_snowflake_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:55:43.151222 [debug] [MainThread]: Command `dbt run` failed at 12:55:43.151222 after 0.10 seconds
+[0m12:55:43.152706 [debug] [MainThread]: Flushing usage events

@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: DBT_PROJECT
+    schema: STAGGING_SCHEMA  # Double check if this matches your Snowflake schema name
+    tables:
+      - name: listings
+      - name: bookings
+      - name: hosts

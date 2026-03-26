@@ -1,0 +1,5 @@
+
+{{config(materialized = 'view')}}
+
+
+SELECT * FROM DBT_PROJECT.STAGGING_SCHEMA.BOOKINGS LIMIT 10

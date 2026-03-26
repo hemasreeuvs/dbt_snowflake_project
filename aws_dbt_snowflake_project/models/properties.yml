@@ -1,0 +1,11 @@
+models:
+    aws_dbt_snowflake_project:
+    - name : bronze
+       config:
+        +materialized: view
+models:
+  aws_dbt_snowflake_project:
+    # This must match the folder name inside your 'models' directory
+    demo: 
+      +materialized: view
+
